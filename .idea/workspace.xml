@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b71b81b8-25ab-4d8e-bf79-36f7b1fad022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dimitriskaitantzidis/Mylist140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2K2RAEy0rYEvzxLyqRzvpj3Yxrh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/web-dev-workstation/mylist140/src/main/java/com/dimitriskaitantzidis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web-dev-workstation\mylist140\src\main\java\com\dimitriskaitantzidis" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dimitriskaitantzidis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dimitriskaitantzidis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Mylist140">
+    <configuration name="Mylist140" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140" />
+      <module name="mylist-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in mylist-method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylist-method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsBiggerThanSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylist-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140Test" />
+      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsBiggerThanSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsSmallerThanSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylist-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140Test" />
+      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsSmallerThanSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylist-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140Test" />
+      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mylist140" />
+        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsZero" />
+        <item itemvalue="JUnit.All in mylist-method" />
+        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsBiggerThanSize" />
+        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsSmallerThanSize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b71b81b8-25ab-4d8e-bf79-36f7b1fad022" name="Changes" comment="" />
+      <created>1673170549415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673170549415</updated>
+      <workItem from="1673170550972" duration="436000" />
+      <workItem from="1673170995919" duration="4628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
