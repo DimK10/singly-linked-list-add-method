@@ -56,6 +56,13 @@ public class Mylist140 {
         }
     }
 
+	/**
+	 * Adds a given value in a given position. If the position is a negative value, it
+	 * prints an error message and no add operation is done.
+	 * @param value The value given by the user to add to singly linked list
+	 * @param position The position given by the user for the value to be added to the
+	 * singly linked list
+	 */
 	public void add(int value, int position) {
 
 		// Check if value of position is negative
@@ -65,27 +72,32 @@ public class Mylist140 {
 			return;
 		}
 
+		// check if position is zero
+		if (position == 0) {
+			addFirst(value);
+		}
+
 		// Get Head
 		Node current = head;
 
-		for (int i = 0; i <= position; i++) {
+		// iterate in order to find the node that is the previous one before the position given
+		for (int i = 0; i < position; i++) {
 
-			if (i == position) {
-				// current is the position we want to add the value
-				Node node = new Node(value);
-				Node temp = current.getNext();
-				current.setNext(node);
-				node.setNext(temp);
+			if (i + 1 == position) {
+				// current is the previous node before the position we want to add the value
+				Node node = new Node(value); // The new value as Node object
+				Node temp = current.getNext(); // The position we want for the new node to be added
+				current.setNext(node); // Adding the new node to the given position
+				node.setNext(temp); // Setting the new node to point to the node that was in the given position initially
 			}
 
+			// For position that is greater than the list size fill with zeros
 			if (current.getNext() == null) {
 				current.setNext(new Node(0));
 			}
 
 			current = current.getNext();
 		}
-
-
 	}
     
     public void printList () {

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b71b81b8-25ab-4d8e-bf79-36f7b1fad022" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dimitriskaitantzidis/Mylist140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimitriskaitantzidis/Mylist140.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimitriskaitantzidis/Mylist140.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -76,7 +76,7 @@
       <recent name="dimitriskaitantzidis" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mylist140">
+  <component name="RunManager" selected="JUnit.All in mylist-method">
     <configuration name="Mylist140" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -100,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsBiggerThanSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsTheLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mylist-method" />
       <extension name="coverage">
         <pattern>
@@ -110,23 +110,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
       <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140Test" />
-      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsBiggerThanSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mylist140Test.shouldAddValueToGivenPositionThatIsSmallerThanSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mylist-method" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
-      <option name="MAIN_CLASS_NAME" value="com.dimitriskaitantzidis.Mylist140Test" />
-      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsSmallerThanSize" />
+      <option name="METHOD_NAME" value="shouldAddValueToGivenPositionThatIsTheLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +132,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.dimitriskaitantzidis in mylist-method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylist-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitriskaitantzidis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimitriskaitantzidis" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in mylist-method" />
+        <item itemvalue="JUnit.com.dimitriskaitantzidis in mylist-method" />
+        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsTheLast" />
         <item itemvalue="Application.Mylist140" />
         <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsZero" />
-        <item itemvalue="JUnit.All in mylist-method" />
-        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsBiggerThanSize" />
-        <item itemvalue="JUnit.Mylist140Test.shouldAddValueToGivenPositionThatIsSmallerThanSize" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673170549415</updated>
       <workItem from="1673170550972" duration="436000" />
-      <workItem from="1673170995919" duration="4628000" />
+      <workItem from="1673170995919" duration="5865000" />
     </task>
     <servers />
   </component>
@@ -184,21 +182,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/dimitriskaitantzidis/Mylist140Test.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

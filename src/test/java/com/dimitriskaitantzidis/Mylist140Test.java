@@ -124,4 +124,31 @@ class Mylist140Test {
 
 		assertEquals(expectedValue, actualValue);
 	}
+
+	@Test
+	void shouldAddValueToGivenPositionThatIsTheLast() {
+		// Given
+		int position = 10;
+		int value = 999;
+
+		int actualValue = -1;
+
+		int expectedValue = 999;
+
+
+
+		// When
+		list.add(value, position);
+
+		// Then
+
+		Node current = list.getHead();
+		for (int i = 0; i < position; i++) {
+			current = current.getNext();
+		}
+
+		actualValue = current.getData();
+
+		assertEquals(expectedValue, actualValue);
+	}
 }
